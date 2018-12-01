@@ -6,9 +6,10 @@ build:
     - linux
   goarch:
     - amd64
-  changelog:
-    sort: asc
-    filters:
-      exclude:
-        - '^docs'
-        - '^refactor'
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs'
+      - '^refactor'
